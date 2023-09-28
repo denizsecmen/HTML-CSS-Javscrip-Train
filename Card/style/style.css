@@ -1,0 +1,83 @@
+html
+{
+    width: 100%;
+    height: 100%;
+}
+#card
+{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+#card > #card-body
+{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#card > #card-body > #basic-info
+{
+    width: 130px;
+    height:130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#card> #card-body > #basic-info >#name
+{
+    font-weight: 900;
+    font-size: 18px;
+
+}
+#card>#below-line
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 2px;
+    background-color: #b8860b;
+}
+#card> #card-body>#details
+{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+}
+#card>#card-body>#details> div
+{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#card>#card-body>#details>div>span
+{
+    margin-left: 10px;
+}
+#card> #card-body>#line
+{
+    width: 2px;
+    height: 80%;
+    border-top-right-radius: 10%;
+    background-color:darkgoldenrod ;
+}
+#card > #card-body > img
+{
+    border-radius: 100%;
+    width: 130px!important;
+    height: 130px!important;
+    border:3px solid darkgoldenrod;
+}
+#details>div>img
+{
+    width: 27px;
+    height: 27px;
+}
+#card>#card-footer
+{
+    margin-left: 5%;
+}
